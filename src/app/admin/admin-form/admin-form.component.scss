@@ -1,0 +1,16 @@
+.admin-form {
+  &__container {
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+  }
+  &__input__2 {
+    min-width: 250px;
+  }
+  &__input__1 {
+    width: 500px;
+  }
+}

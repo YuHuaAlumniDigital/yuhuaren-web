@@ -1,0 +1,25 @@
+:host {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-form {
+  form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  &__input {
+    min-width: 400px;
+  }
+
+  input {
+    display: block;
+    width: 100%;
+  }
+}

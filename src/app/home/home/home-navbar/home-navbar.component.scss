@@ -1,0 +1,32 @@
+.home-navbar {
+  &__logo {
+    height: inherit;
+  }
+  &__node {
+    width: 199px;
+    display: flex;
+    min-height: 48px;
+    align-items: center;
+  }
+  &__item {
+    :hover {
+      cursor: pointer;
+      filter: brightness(1.2);
+    }
+    &__active {
+      filter: brightness(1.2);
+      :hover {
+        cursor: pointer;
+      }
+    }
+  }
+  &__parent {
+    &__active {
+      filter: brightness(1.15);
+      :hover {
+        cursor: pointer;
+        filter: brightness(1.05);
+      }
+    }
+  }
+}
